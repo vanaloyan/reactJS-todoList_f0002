@@ -1,0 +1,26 @@
+.InputTodoBox{
+    justify-content: center;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: #121212;
+}
+
+
+.InputTodoBox input{
+    width: 800px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #282828;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.InputTodoBox input:hover{
+    border: 1px solid white;
+}
+
