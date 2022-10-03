@@ -1,0 +1,65 @@
+.TodoItem{
+    display: flex;
+    width: 1000px;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #181818;
+    color: white;
+    border: none;
+    padding-left: 10px;
+}
+
+.TodoItem:hover{
+background-color: #121212;
+}
+
+.TodoItem button{
+    width: 20px;
+    height: 20px;
+    align-content: center;
+    text-align: center;
+    margin-right: 5px;
+    margin-top:15px;
+    background-color: #404040;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.TodoItem button:hover{
+    background-color: white;
+    color: #181818;
+}
+p{
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 5px;
+}
+.TodoItem input[type="checkbox"]{
+    accent-color: #404040;
+    cursor: pointer;
+}
+
+.TodoItem input[type="checkbox"]:hover{
+    accent-color: #181818;
+}
+
+.openEditInput{
+    background-color: #282828;
+    width:500px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right:5px ;
+    border: none;
+    border-radius: 5px;
+    color: gray;
+}
+
+.openEditInput:hover{
+    border: 1px solid white;
+}
+.closeEditInput{
+    display: none;
+}
